@@ -17,7 +17,7 @@ const movieDetail = async ({ params }) => {
                     <div className="w-[90%] mx-auto px-4 sm:px-6 lg:px-8 mt-20 ">
                         <div className="flex flex-col md:flex-row -mx-4 ">
                             <div className="md:flex-1 px-4">
-                                <div className="h-[600px] p-2 rounded-lg  dark:bg-gray-700 mb-4">
+                                <div className="h-[500px] p-2 rounded-lg  dark:bg-gray-700 mb-4">
                                     <img className="w-full h-full object-cover" src={data.payload.image==""? "https://image.tving.com/upload/cms/caip/CAIP0400/P001731527.jpg/dims/resize/1280":data.payload.image}   />
                                 </div>
                             </div>
